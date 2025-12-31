@@ -3,11 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI poem generator</title>
+    <title>AI German Poem Generator</title>
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the German Poem Generator</h1>
+    <header>
+      <h1>AI German Poem Generator</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter the topic of the German poem"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>
+        Alles Leid und Schmerzen stillest, Den, der doppelt elend ist, Doppelt
+        mit Erquickung füllest; Ach, ich bin des Treibens müde! Was soll all der
+        Schmerz und Lust? Süßer Friede, Komm, ach komm in meine Brust!
+        <br />
+        Frühling läßt sein blaues Band wieder flattern durch die Lüfte; süße,
+        wohlbekannte Düfte streifen ahnungsvoll das Land. Veilchen träumen
+        schon, wollen balde kommen. Horch, von fern ein leiser Harfenton!
+        Frühling, ja du bist’s! Dich hab’ ich vernommen!
+      </div>
+    </main>
     <footer>
       This AI project was coded by
       <a href="https://github.com/schnattiba1" target="_blank"
@@ -19,7 +44,10 @@
         target="_blank"
         >open-sourced on GitHub</a
       >
-      and is hosted on Netlify.
+      and is
+      <a href="https://ai-german-poem-generator.vercel.app/" target="_blank"
+        >hosted on Vercel</a
+      >.
     </footer>
     <script src="./src/index.js"></script>
   </body>

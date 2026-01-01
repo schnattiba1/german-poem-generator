@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the German poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="intro"
-            id="user-intro"
-          />
-          <input type="submit" class="submit-btn" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the German poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="intro"
+              id="user-intro"
+            />
+            <input type="submit" class="submit-btn" />
+          </form>
+          <div class="hint">i.e, flower, berlin, music or romantic</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
